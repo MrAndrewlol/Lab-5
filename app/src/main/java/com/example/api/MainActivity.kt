@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun ingresaractiv(){
-
+        url = "https://api.agify.io?name=&country_id="
         val queue: RequestQueue = Volley.newRequestQueue(applicationContext)
         val nombre = edittext.text.toString()
         val idcountry = paisid.text.toString()
