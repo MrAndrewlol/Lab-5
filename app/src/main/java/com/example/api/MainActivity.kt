@@ -71,7 +71,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun ingresaractivsid(){
+    fun ingresaractivsid(){ //Divition in 2 sections
 
         val queue: RequestQueue = Volley.newRequestQueue(applicationContext)
         val nombre = edittext.text.toString()
